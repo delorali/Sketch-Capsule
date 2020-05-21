@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* SketchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SketchTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* SketchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SketchTests.m */; };
+		B52704E657B346A2945AF46D /* CircularStd-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2613EAB4E182475F97BB21C7 /* CircularStd-Black.ttf */; };
+		40DCAB6C252948F79CF508E3 /* CircularStd-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0D288B61511941DFA2D285AD /* CircularStd-Black.woff */; };
+		88C65531FAD142DC82CC1D20 /* CircularStd-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C29F643C5E1A47FA934AC181 /* CircularStd-Black.woff2 */; };
+		F79569A1D9C04DC8BB23A8EA /* CircularStd-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 585C6418216E4AD3A25C3973 /* CircularStd-BlackItalic.ttf */; };
+		0D193F4526404C1EAFC3C8A1 /* CircularStd-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A77CE528499042AE96146090 /* CircularStd-BlackItalic.woff */; };
+		517ECE6A56A84E5884707FC3 /* CircularStd-BlackItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 1C5560E17A9C41E8AF73E810 /* CircularStd-BlackItalic.woff2 */; };
+		39AFB8BCCBEE4379A275F1A8 /* CircularStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5543D2964986472B967A4495 /* CircularStd-Bold.ttf */; };
+		DAF41F74056A4FE392774295 /* CircularStd-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 21F9201058CC477C82C54BEF /* CircularStd-Bold.woff */; };
+		7398C034651B428CBC4D3117 /* CircularStd-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 822EC66D0C8548C89DFA33E2 /* CircularStd-Bold.woff2 */; };
+		68139892CB7649BA81D37448 /* CircularStd-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 481304BA8FCE460DB4F95307 /* CircularStd-BoldItalic.ttf */; };
+		5A0A957C8BB14BF39777FD44 /* CircularStd-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 707490E06D9A408CAB49303B /* CircularStd-BoldItalic.woff */; };
+		619C3BE17CF744C49CDC3B0D /* CircularStd-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 74C7987366DE4E2B912F2C64 /* CircularStd-BoldItalic.woff2 */; };
+		99F61CFF918D46D68374465C /* CircularStd-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C85BB34B161341B9BC02708F /* CircularStd-Book.ttf */; };
+		61989958355844AEBA90F8C4 /* CircularStd-Book.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2254584F91664B6895C1EB67 /* CircularStd-Book.woff */; };
+		BFCB03399D5E4892BE2E5596 /* CircularStd-Book.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = DFFAB16A2F4845A186D1A193 /* CircularStd-Book.woff2 */; };
+		1BBF234660FB4AEF9A544893 /* CircularStd-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72B8CAD3EAF44C44AAA60EC6 /* CircularStd-BookItalic.ttf */; };
+		3ED06295FB6944A390356866 /* CircularStd-BookItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = B75FAC7667934987BBBA9159 /* CircularStd-BookItalic.woff */; };
+		870420F605004FE496D15574 /* CircularStd-BookItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = E29F2C35468543FAB5E75152 /* CircularStd-BookItalic.woff2 */; };
+		A15C5D7DDA794842BB9B678B /* CircularStd-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 158A0C8C86104641B9AF43E9 /* CircularStd-Medium.ttf */; };
+		355AD15A8E6747DAA5090703 /* CircularStd-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = C1CA4068E10E49E68D163BBE /* CircularStd-Medium.woff */; };
+		0F1F8EC7CEC34B5B857BCD0F /* CircularStd-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BAB5C1CB86AA40FFADCB929D /* CircularStd-Medium.woff2 */; };
+		BB7C1E602CEB49AE9236F093 /* CircularStd-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E889FCB5DA8C4A8480EBAFC3 /* CircularStd-MediumItalic.ttf */; };
+		B07C80ADDA1B4CD09E987E13 /* CircularStd-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5317AA88CA6449CAB4796204 /* CircularStd-MediumItalic.woff */; };
+		034B0F74344A4A81AFBB3F6B /* CircularStd-MediumItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B2C0E5014C674772A9FBD6E5 /* CircularStd-MediumItalic.woff2 */; };
+		F5F8F7E4F553459A87D2B907 /* ProximaNova-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD6E0DB574C4424BBF621822 /* ProximaNova-Black.ttf */; };
+		3D2A634A25214A2DB07145D2 /* ProximaNova-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 1B80E5DF26D14D33ACEB2DA3 /* ProximaNova-Black.woff */; };
+		70A73F55891446B9AE00E96D /* ProximaNova-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 3821E04B556047FCB59CFB13 /* ProximaNova-Black.woff2 */; };
+		F3D435F7A4D1487E85DF6C27 /* ProximaNova-BlackIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A67A86EEB61940169EC9E83F /* ProximaNova-BlackIt.ttf */; };
+		EE5060815D12413091EA20D4 /* ProximaNova-BlackIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = E61530FC391F4CF9B4831730 /* ProximaNova-BlackIt.woff */; };
+		EBAD872115494F8EB5CC0E5C /* ProximaNova-BlackIt.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 44F5C17CBCB043D68DDB93C4 /* ProximaNova-BlackIt.woff2 */; };
+		4ADEBE6F02494258BF74F7FB /* ProximaNova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA846CD7A4404EEC950E7267 /* ProximaNova-Bold.ttf */; };
+		E34A30414A544083BFAB3249 /* ProximaNova-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = D1041181999541AEB56A6C32 /* ProximaNova-Bold.woff */; };
+		3AA17C86561B44D7BA4CF67D /* ProximaNova-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 7836D4BCA4EA4E2F8EADAD84 /* ProximaNova-Bold.woff2 */; };
+		942C2E76A41E465D87ED8035 /* ProximaNova-BoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DFFC2BFF3DF4F4A911C8668 /* ProximaNova-BoldIt.ttf */; };
+		086549DBFB154CB0A000A387 /* ProximaNova-BoldIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = A267E59909B846B7A0B8F653 /* ProximaNova-BoldIt.woff */; };
+		6F9812223E4E45C8AF2401A3 /* ProximaNova-BoldIt.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5DE113B03A4BF0A50EAD1E /* ProximaNova-BoldIt.woff2 */; };
+		D428F61862114EC9A5C5B08F /* ProximaNova-Extrabld.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C630C29E69047F387F4C006 /* ProximaNova-Extrabld.ttf */; };
+		73F8B935E451452485C10D31 /* ProximaNova-Extrabld.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5D87015E2D44829B4AD8140 /* ProximaNova-Extrabld.woff */; };
+		6CADDC9B37AE4C5892C9BA4B /* ProximaNova-Extrabld.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = DC772BD3798A4A618817E549 /* ProximaNova-Extrabld.woff2 */; };
+		75BE84A0BECB4C368E58FF78 /* ProximaNova-ExtrabldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E17AA4A202E40B7A9502793 /* ProximaNova-ExtrabldIt.ttf */; };
+		CE03460A7E8F4880BC1E3501 /* ProximaNova-ExtrabldIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = B950FD16379043FD9F69EBE7 /* ProximaNova-ExtrabldIt.woff */; };
+		83995DBD28A74CB7BAA3C796 /* ProximaNova-ExtrabldIt.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 3D1FF39D1F63494F85F93460 /* ProximaNova-ExtrabldIt.woff2 */; };
+		378A329DDE1C417A88963DDE /* ProximaNova-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D596712460482997D7AC88 /* ProximaNova-Light.ttf */; };
+		CD2E2DDDEFD24063B3C81CB1 /* ProximaNova-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 376F107F8CBC4D0CA502407B /* ProximaNova-Light.woff */; };
+		FFFE83A39D0547FE9ADCB385 /* ProximaNova-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 3C8C1A5ED81D46CE909C80D8 /* ProximaNova-Light.woff2 */; };
+		49E974AAD61045CD801CF177 /* ProximaNova-LightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 110104E79B174E359B01850F /* ProximaNova-LightIt.ttf */; };
+		986CAA5AE2FD4949A233CD64 /* ProximaNova-LightIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = ECCA06C1A1D5422A95237D02 /* ProximaNova-LightIt.woff */; };
+		1DB4A79D0D054AEB86C4BFB7 /* ProximaNova-LightIt.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 57D95649982A4A43BEA72D49 /* ProximaNova-LightIt.woff2 */; };
+		3E698C01DC2846D69E358D5F /* ProximaNova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1B3F9FBF81E4774843BEFA9 /* ProximaNova-Regular.ttf */; };
+		ECB07FD3E7164414B2C58BE7 /* ProximaNova-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2B1739746722434BBB8BD040 /* ProximaNova-Regular.woff */; };
+		6107C4466B0B489AA0E91CA3 /* ProximaNova-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 7B97C8766A1347899DE3AC71 /* ProximaNova-Regular.woff2 */; };
+		1E969C80933845408CC3D2DD /* ProximaNova-RegularIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11348BB50ADA4A46B3D081E6 /* ProximaNova-RegularIt.ttf */; };
+		299A2EAEFA244914AD667B03 /* ProximaNova-RegularIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = A17A371E7F4346AF806DEEED /* ProximaNova-RegularIt.woff */; };
+		EBDA146E21E94CA990B424AF /* ProximaNova-RegularIt.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = EE792068B58948E48F05121F /* ProximaNova-RegularIt.woff2 */; };
+		CD67BF7E56864E319D568FE7 /* ProximaNova-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4129983F7A2491CBCAC1E66 /* ProximaNova-Semibold.ttf */; };
+		4E7F2FDA12B54D9B95B15EFC /* ProximaNova-Semibold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 49DC044BBAA44FB6A5E88798 /* ProximaNova-Semibold.woff */; };
+		E9A13B6C5A7A4AE58D899C62 /* ProximaNova-Semibold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BD014665A6004B539DEF33C9 /* ProximaNova-Semibold.woff2 */; };
+		ECF4E4E818514E4A9C49BC09 /* ProximaNova-SemiboldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBFEB93576E24A40876A8273 /* ProximaNova-SemiboldIt.ttf */; };
+		9F9476499DBC429CAA60FA96 /* ProximaNova-SemiboldIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 23EC3A6DC6444178916AB402 /* ProximaNova-SemiboldIt.woff */; };
+		CDFDE5F53F604A63855C5A5E /* ProximaNova-SemiboldIt.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 40E1ACE746C849488D2382B2 /* ProximaNova-SemiboldIt.woff2 */; };
+		74EB6A24CBEC4538995A7D79 /* ProximaNova-ThinIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1912FB2724A45D1845491CF /* ProximaNova-ThinIt.ttf */; };
+		BFD804B6C58B4DF7978BCBAE /* ProximaNova-ThinIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5A08920CAB594AB7A464CE63 /* ProximaNova-ThinIt.woff */; };
+		84FA762A70A74D8FAA245BE3 /* ProximaNova-ThinIt.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 903581C736F94FDBB6443DEB /* ProximaNova-ThinIt.woff2 */; };
+		8F07F20F78184D66B8096147 /* ProximaNovaT-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B9F4BD252504A02A8566459 /* ProximaNovaT-Thin.ttf */; };
+		51718BB32B3C4FB8A4659E77 /* ProximaNovaT-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1977B863B1840AE84F84BCD /* ProximaNovaT-Thin.woff */; };
+		DDA9C1FF741041928030DBEF /* ProximaNovaT-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A27857F6F0294B388A25BDDD /* ProximaNovaT-Thin.woff2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Sketch;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Sketch-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* SketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SketchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Sketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Sketch/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Sketch/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Sketch/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sketch/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sketch/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Sketch-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sketch-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Sketch-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sketch-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		2613EAB4E182475F97BB21C7 /* CircularStd-Black.ttf */ = {isa = PBXFileReference; name = "CircularStd-Black.ttf"; path = "../assets/fonts/circular/CircularStd-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D288B61511941DFA2D285AD /* CircularStd-Black.woff */ = {isa = PBXFileReference; name = "CircularStd-Black.woff"; path = "../assets/fonts/circular/CircularStd-Black.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C29F643C5E1A47FA934AC181 /* CircularStd-Black.woff2 */ = {isa = PBXFileReference; name = "CircularStd-Black.woff2"; path = "../assets/fonts/circular/CircularStd-Black.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		585C6418216E4AD3A25C3973 /* CircularStd-BlackItalic.ttf */ = {isa = PBXFileReference; name = "CircularStd-BlackItalic.ttf"; path = "../assets/fonts/circular/CircularStd-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A77CE528499042AE96146090 /* CircularStd-BlackItalic.woff */ = {isa = PBXFileReference; name = "CircularStd-BlackItalic.woff"; path = "../assets/fonts/circular/CircularStd-BlackItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C5560E17A9C41E8AF73E810 /* CircularStd-BlackItalic.woff2 */ = {isa = PBXFileReference; name = "CircularStd-BlackItalic.woff2"; path = "../assets/fonts/circular/CircularStd-BlackItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5543D2964986472B967A4495 /* CircularStd-Bold.ttf */ = {isa = PBXFileReference; name = "CircularStd-Bold.ttf"; path = "../assets/fonts/circular/CircularStd-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		21F9201058CC477C82C54BEF /* CircularStd-Bold.woff */ = {isa = PBXFileReference; name = "CircularStd-Bold.woff"; path = "../assets/fonts/circular/CircularStd-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		822EC66D0C8548C89DFA33E2 /* CircularStd-Bold.woff2 */ = {isa = PBXFileReference; name = "CircularStd-Bold.woff2"; path = "../assets/fonts/circular/CircularStd-Bold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		481304BA8FCE460DB4F95307 /* CircularStd-BoldItalic.ttf */ = {isa = PBXFileReference; name = "CircularStd-BoldItalic.ttf"; path = "../assets/fonts/circular/CircularStd-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		707490E06D9A408CAB49303B /* CircularStd-BoldItalic.woff */ = {isa = PBXFileReference; name = "CircularStd-BoldItalic.woff"; path = "../assets/fonts/circular/CircularStd-BoldItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		74C7987366DE4E2B912F2C64 /* CircularStd-BoldItalic.woff2 */ = {isa = PBXFileReference; name = "CircularStd-BoldItalic.woff2"; path = "../assets/fonts/circular/CircularStd-BoldItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C85BB34B161341B9BC02708F /* CircularStd-Book.ttf */ = {isa = PBXFileReference; name = "CircularStd-Book.ttf"; path = "../assets/fonts/circular/CircularStd-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2254584F91664B6895C1EB67 /* CircularStd-Book.woff */ = {isa = PBXFileReference; name = "CircularStd-Book.woff"; path = "../assets/fonts/circular/CircularStd-Book.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DFFAB16A2F4845A186D1A193 /* CircularStd-Book.woff2 */ = {isa = PBXFileReference; name = "CircularStd-Book.woff2"; path = "../assets/fonts/circular/CircularStd-Book.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72B8CAD3EAF44C44AAA60EC6 /* CircularStd-BookItalic.ttf */ = {isa = PBXFileReference; name = "CircularStd-BookItalic.ttf"; path = "../assets/fonts/circular/CircularStd-BookItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B75FAC7667934987BBBA9159 /* CircularStd-BookItalic.woff */ = {isa = PBXFileReference; name = "CircularStd-BookItalic.woff"; path = "../assets/fonts/circular/CircularStd-BookItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E29F2C35468543FAB5E75152 /* CircularStd-BookItalic.woff2 */ = {isa = PBXFileReference; name = "CircularStd-BookItalic.woff2"; path = "../assets/fonts/circular/CircularStd-BookItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		158A0C8C86104641B9AF43E9 /* CircularStd-Medium.ttf */ = {isa = PBXFileReference; name = "CircularStd-Medium.ttf"; path = "../assets/fonts/circular/CircularStd-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1CA4068E10E49E68D163BBE /* CircularStd-Medium.woff */ = {isa = PBXFileReference; name = "CircularStd-Medium.woff"; path = "../assets/fonts/circular/CircularStd-Medium.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BAB5C1CB86AA40FFADCB929D /* CircularStd-Medium.woff2 */ = {isa = PBXFileReference; name = "CircularStd-Medium.woff2"; path = "../assets/fonts/circular/CircularStd-Medium.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E889FCB5DA8C4A8480EBAFC3 /* CircularStd-MediumItalic.ttf */ = {isa = PBXFileReference; name = "CircularStd-MediumItalic.ttf"; path = "../assets/fonts/circular/CircularStd-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5317AA88CA6449CAB4796204 /* CircularStd-MediumItalic.woff */ = {isa = PBXFileReference; name = "CircularStd-MediumItalic.woff"; path = "../assets/fonts/circular/CircularStd-MediumItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2C0E5014C674772A9FBD6E5 /* CircularStd-MediumItalic.woff2 */ = {isa = PBXFileReference; name = "CircularStd-MediumItalic.woff2"; path = "../assets/fonts/circular/CircularStd-MediumItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DD6E0DB574C4424BBF621822 /* ProximaNova-Black.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Black.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B80E5DF26D14D33ACEB2DA3 /* ProximaNova-Black.woff */ = {isa = PBXFileReference; name = "ProximaNova-Black.woff"; path = "../assets/fonts/proxima nova/ProximaNova-Black.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3821E04B556047FCB59CFB13 /* ProximaNova-Black.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-Black.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-Black.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A67A86EEB61940169EC9E83F /* ProximaNova-BlackIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-BlackIt.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-BlackIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E61530FC391F4CF9B4831730 /* ProximaNova-BlackIt.woff */ = {isa = PBXFileReference; name = "ProximaNova-BlackIt.woff"; path = "../assets/fonts/proxima nova/ProximaNova-BlackIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		44F5C17CBCB043D68DDB93C4 /* ProximaNova-BlackIt.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-BlackIt.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-BlackIt.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA846CD7A4404EEC950E7267 /* ProximaNova-Bold.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Bold.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1041181999541AEB56A6C32 /* ProximaNova-Bold.woff */ = {isa = PBXFileReference; name = "ProximaNova-Bold.woff"; path = "../assets/fonts/proxima nova/ProximaNova-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7836D4BCA4EA4E2F8EADAD84 /* ProximaNova-Bold.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-Bold.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-Bold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4DFFC2BFF3DF4F4A911C8668 /* ProximaNova-BoldIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-BoldIt.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-BoldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A267E59909B846B7A0B8F653 /* ProximaNova-BoldIt.woff */ = {isa = PBXFileReference; name = "ProximaNova-BoldIt.woff"; path = "../assets/fonts/proxima nova/ProximaNova-BoldIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A5DE113B03A4BF0A50EAD1E /* ProximaNova-BoldIt.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-BoldIt.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-BoldIt.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C630C29E69047F387F4C006 /* ProximaNova-Extrabld.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Extrabld.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-Extrabld.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5D87015E2D44829B4AD8140 /* ProximaNova-Extrabld.woff */ = {isa = PBXFileReference; name = "ProximaNova-Extrabld.woff"; path = "../assets/fonts/proxima nova/ProximaNova-Extrabld.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DC772BD3798A4A618817E549 /* ProximaNova-Extrabld.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-Extrabld.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-Extrabld.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E17AA4A202E40B7A9502793 /* ProximaNova-ExtrabldIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-ExtrabldIt.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-ExtrabldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B950FD16379043FD9F69EBE7 /* ProximaNova-ExtrabldIt.woff */ = {isa = PBXFileReference; name = "ProximaNova-ExtrabldIt.woff"; path = "../assets/fonts/proxima nova/ProximaNova-ExtrabldIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D1FF39D1F63494F85F93460 /* ProximaNova-ExtrabldIt.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-ExtrabldIt.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-ExtrabldIt.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90D596712460482997D7AC88 /* ProximaNova-Light.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Light.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		376F107F8CBC4D0CA502407B /* ProximaNova-Light.woff */ = {isa = PBXFileReference; name = "ProximaNova-Light.woff"; path = "../assets/fonts/proxima nova/ProximaNova-Light.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C8C1A5ED81D46CE909C80D8 /* ProximaNova-Light.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-Light.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-Light.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		110104E79B174E359B01850F /* ProximaNova-LightIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-LightIt.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-LightIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ECCA06C1A1D5422A95237D02 /* ProximaNova-LightIt.woff */ = {isa = PBXFileReference; name = "ProximaNova-LightIt.woff"; path = "../assets/fonts/proxima nova/ProximaNova-LightIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57D95649982A4A43BEA72D49 /* ProximaNova-LightIt.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-LightIt.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-LightIt.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1B3F9FBF81E4774843BEFA9 /* ProximaNova-Regular.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Regular.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2B1739746722434BBB8BD040 /* ProximaNova-Regular.woff */ = {isa = PBXFileReference; name = "ProximaNova-Regular.woff"; path = "../assets/fonts/proxima nova/ProximaNova-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B97C8766A1347899DE3AC71 /* ProximaNova-Regular.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-Regular.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-Regular.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11348BB50ADA4A46B3D081E6 /* ProximaNova-RegularIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-RegularIt.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-RegularIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A17A371E7F4346AF806DEEED /* ProximaNova-RegularIt.woff */ = {isa = PBXFileReference; name = "ProximaNova-RegularIt.woff"; path = "../assets/fonts/proxima nova/ProximaNova-RegularIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE792068B58948E48F05121F /* ProximaNova-RegularIt.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-RegularIt.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-RegularIt.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4129983F7A2491CBCAC1E66 /* ProximaNova-Semibold.ttf */ = {isa = PBXFileReference; name = "ProximaNova-Semibold.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		49DC044BBAA44FB6A5E88798 /* ProximaNova-Semibold.woff */ = {isa = PBXFileReference; name = "ProximaNova-Semibold.woff"; path = "../assets/fonts/proxima nova/ProximaNova-Semibold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BD014665A6004B539DEF33C9 /* ProximaNova-Semibold.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-Semibold.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-Semibold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BBFEB93576E24A40876A8273 /* ProximaNova-SemiboldIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-SemiboldIt.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-SemiboldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		23EC3A6DC6444178916AB402 /* ProximaNova-SemiboldIt.woff */ = {isa = PBXFileReference; name = "ProximaNova-SemiboldIt.woff"; path = "../assets/fonts/proxima nova/ProximaNova-SemiboldIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		40E1ACE746C849488D2382B2 /* ProximaNova-SemiboldIt.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-SemiboldIt.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-SemiboldIt.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1912FB2724A45D1845491CF /* ProximaNova-ThinIt.ttf */ = {isa = PBXFileReference; name = "ProximaNova-ThinIt.ttf"; path = "../assets/fonts/proxima nova/ProximaNova-ThinIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A08920CAB594AB7A464CE63 /* ProximaNova-ThinIt.woff */ = {isa = PBXFileReference; name = "ProximaNova-ThinIt.woff"; path = "../assets/fonts/proxima nova/ProximaNova-ThinIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		903581C736F94FDBB6443DEB /* ProximaNova-ThinIt.woff2 */ = {isa = PBXFileReference; name = "ProximaNova-ThinIt.woff2"; path = "../assets/fonts/proxima nova/ProximaNova-ThinIt.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B9F4BD252504A02A8566459 /* ProximaNovaT-Thin.ttf */ = {isa = PBXFileReference; name = "ProximaNovaT-Thin.ttf"; path = "../assets/fonts/proxima nova/ProximaNovaT-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A1977B863B1840AE84F84BCD /* ProximaNovaT-Thin.woff */ = {isa = PBXFileReference; name = "ProximaNovaT-Thin.woff"; path = "../assets/fonts/proxima nova/ProximaNovaT-Thin.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A27857F6F0294B388A25BDDD /* ProximaNovaT-Thin.woff2 */ = {isa = PBXFileReference; name = "ProximaNovaT-Thin.woff2"; path = "../assets/fonts/proxima nova/ProximaNovaT-Thin.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* SketchTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* SketchTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = SketchTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Sketch;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Sketch */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* SketchTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				809730B2A54541BF9FB33104 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Sketch.app */,
+				00E356EE1AD99517003FC87E /* SketchTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Sketch-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Sketch-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		809730B2A54541BF9FB33104 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				2613EAB4E182475F97BB21C7 /* CircularStd-Black.ttf */,
+				0D288B61511941DFA2D285AD /* CircularStd-Black.woff */,
+				C29F643C5E1A47FA934AC181 /* CircularStd-Black.woff2 */,
+				585C6418216E4AD3A25C3973 /* CircularStd-BlackItalic.ttf */,
+				A77CE528499042AE96146090 /* CircularStd-BlackItalic.woff */,
+				1C5560E17A9C41E8AF73E810 /* CircularStd-BlackItalic.woff2 */,
+				5543D2964986472B967A4495 /* CircularStd-Bold.ttf */,
+				21F9201058CC477C82C54BEF /* CircularStd-Bold.woff */,
+				822EC66D0C8548C89DFA33E2 /* CircularStd-Bold.woff2 */,
+				481304BA8FCE460DB4F95307 /* CircularStd-BoldItalic.ttf */,
+				707490E06D9A408CAB49303B /* CircularStd-BoldItalic.woff */,
+				74C7987366DE4E2B912F2C64 /* CircularStd-BoldItalic.woff2 */,
+				C85BB34B161341B9BC02708F /* CircularStd-Book.ttf */,
+				2254584F91664B6895C1EB67 /* CircularStd-Book.woff */,
+				DFFAB16A2F4845A186D1A193 /* CircularStd-Book.woff2 */,
+				72B8CAD3EAF44C44AAA60EC6 /* CircularStd-BookItalic.ttf */,
+				B75FAC7667934987BBBA9159 /* CircularStd-BookItalic.woff */,
+				E29F2C35468543FAB5E75152 /* CircularStd-BookItalic.woff2 */,
+				158A0C8C86104641B9AF43E9 /* CircularStd-Medium.ttf */,
+				C1CA4068E10E49E68D163BBE /* CircularStd-Medium.woff */,
+				BAB5C1CB86AA40FFADCB929D /* CircularStd-Medium.woff2 */,
+				E889FCB5DA8C4A8480EBAFC3 /* CircularStd-MediumItalic.ttf */,
+				5317AA88CA6449CAB4796204 /* CircularStd-MediumItalic.woff */,
+				B2C0E5014C674772A9FBD6E5 /* CircularStd-MediumItalic.woff2 */,
+				DD6E0DB574C4424BBF621822 /* ProximaNova-Black.ttf */,
+				1B80E5DF26D14D33ACEB2DA3 /* ProximaNova-Black.woff */,
+				3821E04B556047FCB59CFB13 /* ProximaNova-Black.woff2 */,
+				A67A86EEB61940169EC9E83F /* ProximaNova-BlackIt.ttf */,
+				E61530FC391F4CF9B4831730 /* ProximaNova-BlackIt.woff */,
+				44F5C17CBCB043D68DDB93C4 /* ProximaNova-BlackIt.woff2 */,
+				AA846CD7A4404EEC950E7267 /* ProximaNova-Bold.ttf */,
+				D1041181999541AEB56A6C32 /* ProximaNova-Bold.woff */,
+				7836D4BCA4EA4E2F8EADAD84 /* ProximaNova-Bold.woff2 */,
+				4DFFC2BFF3DF4F4A911C8668 /* ProximaNova-BoldIt.ttf */,
+				A267E59909B846B7A0B8F653 /* ProximaNova-BoldIt.woff */,
+				3A5DE113B03A4BF0A50EAD1E /* ProximaNova-BoldIt.woff2 */,
+				4C630C29E69047F387F4C006 /* ProximaNova-Extrabld.ttf */,
+				A5D87015E2D44829B4AD8140 /* ProximaNova-Extrabld.woff */,
+				DC772BD3798A4A618817E549 /* ProximaNova-Extrabld.woff2 */,
+				1E17AA4A202E40B7A9502793 /* ProximaNova-ExtrabldIt.ttf */,
+				B950FD16379043FD9F69EBE7 /* ProximaNova-ExtrabldIt.woff */,
+				3D1FF39D1F63494F85F93460 /* ProximaNova-ExtrabldIt.woff2 */,
+				90D596712460482997D7AC88 /* ProximaNova-Light.ttf */,
+				376F107F8CBC4D0CA502407B /* ProximaNova-Light.woff */,
+				3C8C1A5ED81D46CE909C80D8 /* ProximaNova-Light.woff2 */,
+				110104E79B174E359B01850F /* ProximaNova-LightIt.ttf */,
+				ECCA06C1A1D5422A95237D02 /* ProximaNova-LightIt.woff */,
+				57D95649982A4A43BEA72D49 /* ProximaNova-LightIt.woff2 */,
+				B1B3F9FBF81E4774843BEFA9 /* ProximaNova-Regular.ttf */,
+				2B1739746722434BBB8BD040 /* ProximaNova-Regular.woff */,
+				7B97C8766A1347899DE3AC71 /* ProximaNova-Regular.woff2 */,
+				11348BB50ADA4A46B3D081E6 /* ProximaNova-RegularIt.ttf */,
+				A17A371E7F4346AF806DEEED /* ProximaNova-RegularIt.woff */,
+				EE792068B58948E48F05121F /* ProximaNova-RegularIt.woff2 */,
+				F4129983F7A2491CBCAC1E66 /* ProximaNova-Semibold.ttf */,
+				49DC044BBAA44FB6A5E88798 /* ProximaNova-Semibold.woff */,
+				BD014665A6004B539DEF33C9 /* ProximaNova-Semibold.woff2 */,
+				BBFEB93576E24A40876A8273 /* ProximaNova-SemiboldIt.ttf */,
+				23EC3A6DC6444178916AB402 /* ProximaNova-SemiboldIt.woff */,
+				40E1ACE746C849488D2382B2 /* ProximaNova-SemiboldIt.woff2 */,
+				B1912FB2724A45D1845491CF /* ProximaNova-ThinIt.ttf */,
+				5A08920CAB594AB7A464CE63 /* ProximaNova-ThinIt.woff */,
+				903581C736F94FDBB6443DEB /* ProximaNova-ThinIt.woff2 */,
+				5B9F4BD252504A02A8566459 /* ProximaNovaT-Thin.ttf */,
+				A1977B863B1840AE84F84BCD /* ProximaNovaT-Thin.woff */,
+				A27857F6F0294B388A25BDDD /* ProximaNovaT-Thin.woff2 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* SketchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SketchTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = SketchTests;
+			productName = SketchTests;
+			productReference = 00E356EE1AD99517003FC87E /* SketchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Sketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Sketch" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sketch;
+			productName = Sketch;
+			productReference = 13B07F961A680F5B00A75B9A /* Sketch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Sketch-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Sketch-tvOS" */;
+			buildPhases = (
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sketch-tvOS";
+			productName = "Sketch-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Sketch-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Sketch-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Sketch-tvOSTests" */;
+			buildPhases = (
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Sketch-tvOSTests";
+			productName = "Sketch-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Sketch-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Sketch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Sketch */,
+				00E356ED1AD99517003FC87E /* SketchTests */,
+				2D02E47A1E0B4A5D006451C7 /* Sketch-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Sketch-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B52704E657B346A2945AF46D /* CircularStd-Black.ttf in Resources */,
+				40DCAB6C252948F79CF508E3 /* CircularStd-Black.woff in Resources */,
+				88C65531FAD142DC82CC1D20 /* CircularStd-Black.woff2 in Resources */,
+				F79569A1D9C04DC8BB23A8EA /* CircularStd-BlackItalic.ttf in Resources */,
+				0D193F4526404C1EAFC3C8A1 /* CircularStd-BlackItalic.woff in Resources */,
+				517ECE6A56A84E5884707FC3 /* CircularStd-BlackItalic.woff2 in Resources */,
+				39AFB8BCCBEE4379A275F1A8 /* CircularStd-Bold.ttf in Resources */,
+				DAF41F74056A4FE392774295 /* CircularStd-Bold.woff in Resources */,
+				7398C034651B428CBC4D3117 /* CircularStd-Bold.woff2 in Resources */,
+				68139892CB7649BA81D37448 /* CircularStd-BoldItalic.ttf in Resources */,
+				5A0A957C8BB14BF39777FD44 /* CircularStd-BoldItalic.woff in Resources */,
+				619C3BE17CF744C49CDC3B0D /* CircularStd-BoldItalic.woff2 in Resources */,
+				99F61CFF918D46D68374465C /* CircularStd-Book.ttf in Resources */,
+				61989958355844AEBA90F8C4 /* CircularStd-Book.woff in Resources */,
+				BFCB03399D5E4892BE2E5596 /* CircularStd-Book.woff2 in Resources */,
+				1BBF234660FB4AEF9A544893 /* CircularStd-BookItalic.ttf in Resources */,
+				3ED06295FB6944A390356866 /* CircularStd-BookItalic.woff in Resources */,
+				870420F605004FE496D15574 /* CircularStd-BookItalic.woff2 in Resources */,
+				A15C5D7DDA794842BB9B678B /* CircularStd-Medium.ttf in Resources */,
+				355AD15A8E6747DAA5090703 /* CircularStd-Medium.woff in Resources */,
+				0F1F8EC7CEC34B5B857BCD0F /* CircularStd-Medium.woff2 in Resources */,
+				BB7C1E602CEB49AE9236F093 /* CircularStd-MediumItalic.ttf in Resources */,
+				B07C80ADDA1B4CD09E987E13 /* CircularStd-MediumItalic.woff in Resources */,
+				034B0F74344A4A81AFBB3F6B /* CircularStd-MediumItalic.woff2 in Resources */,
+				F5F8F7E4F553459A87D2B907 /* ProximaNova-Black.ttf in Resources */,
+				3D2A634A25214A2DB07145D2 /* ProximaNova-Black.woff in Resources */,
+				70A73F55891446B9AE00E96D /* ProximaNova-Black.woff2 in Resources */,
+				F3D435F7A4D1487E85DF6C27 /* ProximaNova-BlackIt.ttf in Resources */,
+				EE5060815D12413091EA20D4 /* ProximaNova-BlackIt.woff in Resources */,
+				EBAD872115494F8EB5CC0E5C /* ProximaNova-BlackIt.woff2 in Resources */,
+				4ADEBE6F02494258BF74F7FB /* ProximaNova-Bold.ttf in Resources */,
+				E34A30414A544083BFAB3249 /* ProximaNova-Bold.woff in Resources */,
+				3AA17C86561B44D7BA4CF67D /* ProximaNova-Bold.woff2 in Resources */,
+				942C2E76A41E465D87ED8035 /* ProximaNova-BoldIt.ttf in Resources */,
+				086549DBFB154CB0A000A387 /* ProximaNova-BoldIt.woff in Resources */,
+				6F9812223E4E45C8AF2401A3 /* ProximaNova-BoldIt.woff2 in Resources */,
+				D428F61862114EC9A5C5B08F /* ProximaNova-Extrabld.ttf in Resources */,
+				73F8B935E451452485C10D31 /* ProximaNova-Extrabld.woff in Resources */,
+				6CADDC9B37AE4C5892C9BA4B /* ProximaNova-Extrabld.woff2 in Resources */,
+				75BE84A0BECB4C368E58FF78 /* ProximaNova-ExtrabldIt.ttf in Resources */,
+				CE03460A7E8F4880BC1E3501 /* ProximaNova-ExtrabldIt.woff in Resources */,
+				83995DBD28A74CB7BAA3C796 /* ProximaNova-ExtrabldIt.woff2 in Resources */,
+				378A329DDE1C417A88963DDE /* ProximaNova-Light.ttf in Resources */,
+				CD2E2DDDEFD24063B3C81CB1 /* ProximaNova-Light.woff in Resources */,
+				FFFE83A39D0547FE9ADCB385 /* ProximaNova-Light.woff2 in Resources */,
+				49E974AAD61045CD801CF177 /* ProximaNova-LightIt.ttf in Resources */,
+				986CAA5AE2FD4949A233CD64 /* ProximaNova-LightIt.woff in Resources */,
+				1DB4A79D0D054AEB86C4BFB7 /* ProximaNova-LightIt.woff2 in Resources */,
+				3E698C01DC2846D69E358D5F /* ProximaNova-Regular.ttf in Resources */,
+				ECB07FD3E7164414B2C58BE7 /* ProximaNova-Regular.woff in Resources */,
+				6107C4466B0B489AA0E91CA3 /* ProximaNova-Regular.woff2 in Resources */,
+				1E969C80933845408CC3D2DD /* ProximaNova-RegularIt.ttf in Resources */,
+				299A2EAEFA244914AD667B03 /* ProximaNova-RegularIt.woff in Resources */,
+				EBDA146E21E94CA990B424AF /* ProximaNova-RegularIt.woff2 in Resources */,
+				CD67BF7E56864E319D568FE7 /* ProximaNova-Semibold.ttf in Resources */,
+				4E7F2FDA12B54D9B95B15EFC /* ProximaNova-Semibold.woff in Resources */,
+				E9A13B6C5A7A4AE58D899C62 /* ProximaNova-Semibold.woff2 in Resources */,
+				ECF4E4E818514E4A9C49BC09 /* ProximaNova-SemiboldIt.ttf in Resources */,
+				9F9476499DBC429CAA60FA96 /* ProximaNova-SemiboldIt.woff in Resources */,
+				CDFDE5F53F604A63855C5A5E /* ProximaNova-SemiboldIt.woff2 in Resources */,
+				74EB6A24CBEC4538995A7D79 /* ProximaNova-ThinIt.ttf in Resources */,
+				BFD804B6C58B4DF7978BCBAE /* ProximaNova-ThinIt.woff in Resources */,
+				84FA762A70A74D8FAA245BE3 /* ProximaNova-ThinIt.woff2 in Resources */,
+				8F07F20F78184D66B8096147 /* ProximaNovaT-Thin.ttf in Resources */,
+				51718BB32B3C4FB8A4659E77 /* ProximaNovaT-Thin.woff in Resources */,
+				DDA9C1FF741041928030DBEF /* ProximaNovaT-Thin.woff2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* SketchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* SketchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Sketch */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Sketch-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Sketch;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SketchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sketch.app/Sketch";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = SketchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sketch.app/Sketch";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = Sketch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Sketch;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Sketch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Sketch;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Sketch-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Sketch-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Sketch-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Sketch-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Sketch-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Sketch-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sketch-tvOS.app/Sketch-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Sketch-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Sketch-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sketch-tvOS.app/Sketch-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SketchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Sketch-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Sketch-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
